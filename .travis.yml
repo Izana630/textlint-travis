@@ -4,5 +4,6 @@ node_js:
   - '7.4.0'
 before_script:
   - npm install
+  - npm install --save textlint-rule-preset-ja-technical-writing textlint-spellcheck-tech-word
 script:
   - npm run lint -s
